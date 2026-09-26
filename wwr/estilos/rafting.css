@@ -1,6 +1,5 @@
 :root {
     --cor-primaria: #0b6e99;
-    --cor-secundaria: #f4a261;
     --cor-destaque: #264653;
     --cor-texto: #222;
     --fonte-body: Arial, Helvetica, sans-serif;
@@ -40,7 +39,7 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+footer a {
     text-decoration: none;
 }
 
