@@ -290,3 +290,12 @@ main > h1 {
     font-weight: bold;
     color: #333;
 }
+
+.cabecalho-contato {
+    text-align: center;
+    margin: 2rem 0 3rem;
+}
+
+.cabecalho-contato p {
+    margin: 0.6rem 0;
+}

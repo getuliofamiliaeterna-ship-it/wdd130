@@ -30,24 +30,21 @@
     </header>
 
     <main>
-        <h1>Fale Conosco - Rio Abaixo Rafting</h1>
+        <section class="cabecalho-contato">
+            <h1>Fale Conosco | Rio Abaixo Rafting</h1>
+            <p>Brasília, Distrito Federal, Brasil</p>
+            <p>(61) 3333-2026</p>
+            <p>contato@rioabaixorafting.com</p>
+        </section>
 
         <section class="contato">
-            <div class="informacoes">
-                <h2>Entre em Contato</h2>
-
-                <p>📍 Brasília, Distrito Federal, Brasil</p>
-                <p>📞 (61) 3333-2026</p>
-                <p>✉️ contato@rioabaixorafting.com</p>
-
+            <div class="mapa-contato">
                 <iframe src="https://www.google.com/maps?q=Brasilia%20DF&output=embed" width="400"
-                  height="250" loading="lazy" title="Localização da Rio Abaixo Rafting">
+                  height="350" loading="lazy" title="Localização da Rio Abaixo Rafting">
                 </iframe>
             </div>
 
             <div class="formulario-contato">
-                <h2>Envie uma Mensagem</h2>
-
                 <form>
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" name="nome" required>
@@ -58,37 +55,37 @@
                     <fieldset>
                         <legend>Qual é o propósito da sua mensagem?</legend>
 
-                        <label>
+                        <div class="opcao-radio">
                             <input type="radio" id="consulta" name="proposito" value="consulta">
-                            Consulta Geral
-                        </label>
+                            <label for="consulta">Consulta Geral</label>
+                        </div>
 
-                        <label>
+                        <div class="opcao-radio">
                             <input type="radio" id="reserva" name="proposito" value="reserva">
-                            Pergunta sobre Reserva
-                        </label>
+                            <label for="reserva">Pergunta sobre Reserva</label>
+                        </div>
 
-                        <label>
+                        <div class="opcao-radio">
                             <input type="radio" id="site" name="proposito" value="site">
-                            Sugestão de Site
-                        </label>
+                            <label for="site">Sugestão de Site</label>
+                        </div>
                     </fieldset>
 
                     <label for="mensagem">Mensagem:</label>
                     <textarea id="mensagem" name="mensagem" rows="5"></textarea>
 
-                    <label class="newsletter">
+                    <label class="newsletter" for="newsletter">
                         <input type="checkbox" id="newsletter" name="newsletter">
                         Quero receber a newsletter mensal
                     </label>
 
-                    <button type="submit">Enviar Minha Mensagem</button>
+                    <button type="submit">Entre em Contato!</button>
                 </form>
             </div>
         </section>
 
         <section class="equipe">
-            <h2>Conheça Nossa Equipe</h2>
+            <h2>Estamos Aqui para Atender Você</h2>
 
             <div class="funcionarios">
                 <figure>
@@ -108,7 +105,6 @@
             </div>
         </section>
     </main>
-
     <footer>
         <p>&copy; 2026 | Rio Abaixo Rafting | Getulio da Silva Carvalho Junior</p>
 
